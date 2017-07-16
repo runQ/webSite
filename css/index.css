@@ -1,0 +1,224 @@
+.header {
+    background: url(../img/index_top_bg2.png) repeat;
+    background-size: 120%;
+    width: 100%;
+    height: 6rem;
+    z-index: 999;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+}
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+body::-webkit-scrollbar{
+    width: 8px;
+    height: 16px;
+    background-color: #f5f5f5;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+/*定义滑块，内阴影及圆角*/
+body::-webkit-scrollbar-thumb{
+    /*width: 10px;*/
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+#index_top_bg{
+	padding-top:6rem ;
+}
+body{
+	background-color:rgb(18,10,10);
+	font-size: 16px;
+}
+
+.content-text{
+	font-size: 14px;
+}
+.center div{
+	text-align: center;
+}
+
+.topbg .navbar-toggle{
+	position: relative;
+	top: 10px;
+}
+.topbg .navbar-collapse{
+	border:none;
+	
+}
+.topbg .navbar-collapse .navbar-nav li:hover{
+	background-image: url(../img/a_bg.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: auto 111%;
+}
+
+/*.topbg .navbar-collapse .navbar-nav li:hover a{
+	background-color: rgba(0,0,0,.2);
+}
+.topbg .navbar-collapse .navbar-nav li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}*/
+.whitefont{
+	color: #ffdadc!important;
+	text-align: center;
+}
+.redfont{
+	color: #ff5953!important;
+	font-family:verdana;
+}
+.logoimg{
+	float: left;
+	display: inline-block;
+	width:50px;
+	height: 50px;
+}
+.logoimg img{
+	widows: 100%;
+	height: 100%;
+}
+.content{
+	background-image: url(../img/bg_2_02.png);
+	background-size: cover;
+	background-position: center -58px;
+}
+.serviceimg{
+	width: 150px;
+	height: 150px;
+	margin: 0px auto;
+}
+.serviceimg img{
+	width: 100%;
+	height: 100%;
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+	.blackbg{
+			background-color: rgba(0,0,0,.9)!important;
+		}
+	.contact{
+	padding-top: 2rem;
+        }
+	.footer{
+			padding-top: 2rem;
+		}
+}
+@media only screen and (min-width: 760px) and (max-width: 815px) {
+	#bs-example-navbar-collapse-1{
+		width: 760px;
+	}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 992px) {
+	.contact{
+	padding-top: 10rem;
+} 
+.footer{
+	padding-top: 10rem;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+	.contact{
+	padding-top: 20rem;
+} 
+.footer{
+	padding-top: 20rem;
+}
+		
+		
+		
+}
+
+
+/*作品部分*/
+.zuopin{
+	width: 100%;
+	position: relative;
+	background: url(../img/zuopinbg_02.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center 0;
+}
+/*.zuopin_body{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}*/
+.zuopin_body .container{
+	padding-top: 50px;
+}
+.zuopin_more_btn{
+	margin: 20px auto;
+	width: 170px;
+	height: 80px;
+	padding: 25px;
+}
+
+.content_more_btn{
+	margin: 0 auto;
+	width: 170px;
+	height: 80px;
+	padding: 25px;
+}
+.more_btn{
+	width: 120px;
+	height: 40px;
+	border: 1px solid #fffeff;
+	background-color: rgba(0,0,0,0);
+	color: #fffeff;
+}
+.more_btn:hover{
+	background-color: #eababf;
+	color: #220d0c;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.zuopin .row{
+	padding: 5px;
+}
+.pic img{
+	border: 5px solid #a43b3b;
+}
+/*底部*/
+.earth_bg{
+	background-image: url(../img/earth_03.png);
+	background-size: cover;
+}
+
+
+/*联系部分*/
+/*.contact{
+	padding-top: 20rem;
+}*/
+.contact_img{
+	margin: 0 auto;
+	width: 80%;
+	height: 80%;
+}
+/*footer*/
+/*.footer{
+	padding-top: 20rem;
+}*/
+.totop{
+	margin: 0 auto;
+	width: 45px;
+	height: 70px;
+}
+
+
+
+
+
+/*联系我们*/
+

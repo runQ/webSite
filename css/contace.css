@@ -1,0 +1,13 @@
+.contact_body { margin-top: 5.8rem; width: 100%; height: 48rem; background-repeat: no-repeat; background-image: url(../img/6bg_03.jpg); text-align: left !important; }
+.contact_body .backmc { background-color: rgba(0, 0, 0, 0.2); width: 100%; height: 100%; }
+.contact_body .container { margin-top: 20px; width: 50% !important; }
+.contact_body .firstinput { margin-top: 50px; }
+.contact_body footer { margin-top: 60px; position: relative; }
+.contact_body footer b { height: 100%; }
+.contact_body footer img { height: 100%; width: auto; }
+.contact_body footer .footer-po { width: 300px; z-index: 99; position: absolute; left: 50%; top: -15px; margin-left: -150px; }
+.contact_body footer .qqpart { margin: 0 auto; display: inline-block; height: 30px; }
+.contact_body footer .phonepart { display: inline-block; margin: 0 auto; height: 30px; float: right; }
+@media only screen and (min-width: 100px) and (max-width: 605px) { .contact_body .container { margin-top: 20px; width: 80% !important; } }
+
+/*# sourceMappingURL=contace.css.map */

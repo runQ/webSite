@@ -1,0 +1,28 @@
+.all_main { margin-top: 5rem; overflow: hidden; padding-top: 450px; background-image: url(../img/header_1.jpg); background-position: center 0; background-repeat: no-repeat; background-color: #120a0a; }
+.all_main .intro_content { height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.7); }
+.all_main .intro_content { display: none; position: absolute; height: 110%; width: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 99; }
+.all_main .intro_content .intro_content_page2 { padding-left: 30px; padding-top: 50px; padding-right: 30px; color: #fff; font-size: 36px; font-weight: 600; }
+.all_main .intro_content .intro_content_page2 .intro_content_second_title { color: #e67171; font-size: 16px; margin-top: 15px; margin-bottom: 50px; }
+.all_main .intro_content .intro_content_page2 .intro_content_intro { font-size: 14px; padding-bottom: 30px; }
+.all_main .content_c { color: #876468; margin-top: 80px; font-size: 16px; text-align: center; margin-bottom: 80px; }
+.all_main .content_c span { word-spacing: 3px; line-height: 35px; display: block; font-size: 14px; }
+.all_main .middle_content .team-title_1 { display: none; }
+.all_main .middle_content div span { display: inline-block; margin-top: 20px; margin-bottom: 20px; font-size: 25px; color: #f74b4b; }
+.all_main .middle_content .team_text .team_text_f { font-size: 24px; color: #a45353; }
+.all_main .middle_content .team_text .team_text_s { font-size: 60px; font-weight: 900; word-spacing: 10px; color: #942121; }
+.all_main .footer_c { border-right: 1px solid #392424; margin: 5px 0; margin-top: 300px; }
+.all_main .footer_c a { color: #694747; }
+.all_main .footer_c:nth-child(4) { border: none; }
+
+@media only screen and (max-width: 647px) { .content_c span { display: inline !important; word-spacing: 2px !important; line-height: 24px !important; }
+  .team_text_s { font-size: 30px !important; } }
+@media only screen and (max-width: 988px) { .team-title_1 { display: block !important; }
+  .team-title_2 { display: none !important; }
+  .middle_content div { margin-top: 30px; }
+  .intro_img { line-height: 155px; }
+  .intro_img img { width: 130%; }
+  .footer_c { margin-top: 50px !important; }
+  .intro_content { height: 135% !important; }
+  .content_i { font-size: 12px; } }
+
+/*# sourceMappingURL=team2.css.map */

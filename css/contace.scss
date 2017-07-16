@@ -1,0 +1,69 @@
+.contact_body{
+    
+    &{
+        margin-top: 5.8rem;
+    width: 100%;
+    height: 48rem;
+//  background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/6bg_03.jpg);
+    text-align: left!important;
+    }
+    
+    .backmc{
+        background-color: rgba(0,0,0,.2);
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        margin-top: 20px;
+        width: 50%!important;
+    }
+    .firstinput{
+        margin-top: 50px;
+    }
+    
+    footer{
+        &{
+            margin-top: 60px;
+//          border: 1px solid #df1a1d;
+            position: relative;
+        }
+        
+        b{
+            height: 100%;
+        }
+        img{
+            height: 100%;
+            width: auto;
+        }
+        .footer-po{
+            width: 300px;
+            z-index: 99;
+            position: absolute;
+            left: 50%;
+            top: -15px;
+            margin-left: -150px;
+        }
+        .qqpart{
+            margin: 0 auto;
+            display: inline-block;
+             height: 30px;
+             
+        }
+        
+        .phonepart{
+            display: inline-block;
+            margin: 0 auto;
+            height: 30px;
+            float: right;
+        }
+    }
+    
+    @media only screen and (min-width: 100px) and (max-width: 605px) {
+    .container{
+        margin-top: 20px;
+        width: 80%!important;
+    }
+}
+}

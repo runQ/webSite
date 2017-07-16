@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Amazing Design</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contace.css"/>
+		<script src="js/jquery-3.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="topbg">
+		<nav class="header navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button id="nav_btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a style="text-align: center;" class="whitefont navbar-brand" href="#"><div class="logoimg"><img src="img/logo_03.png"/></div><div style="display: inline-block;">Amazing Design<br /><span class="redfont">魅星设计</span></div></a>
+		    </div>
+		
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a class="whitefont" href="index.html"><span class="redfont">INDEX</span><br /> 首页</a></li>
+		        <li><a class="whitefont" href="work.html"><span class="redfont">WORK</span><br />作品</a></li>
+		        <li><a class="whitefont" href="service.html"><span class="redfont">SERVICE</span><br />服务</a></li>
+		        <li><a class="whitefont" href="article.html"><span class="redfont">ARTICLE</span><br />文章</a></li>
+		        <li><a class="whitefont" href="team.html"><span class="redfont">TEAM</span><br />团队</a></li>
+		        <li><a class="whitefont" href="contact.html"><span class="redfont">CONTACT</span><br />联系</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		</div>
+		
+		<!--contact-->
+		<div class="contact_body whitefont">
+			<div class="backmc">
+				<div class="container">
+					
+					<form action="" method="post">
+			  <div class="firstinput form-group">
+			    <label for="user_name">昵称</label>
+			    <input required="required" type="text" class="form-control" name="user_name" id="user_name" placeholder="你的昵称">
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="user_phone">电话</label>
+			    <input required="required" type="tel" class="form-control" name="user_phone" id="user_phone" placeholder="你的电话">
+			  </div>
+			  <div class="form-group">
+			    <label for="user_email">邮箱</label>
+			    <input required="required" type="email" class="form-control" name="user_email" id="user_email" placeholder="你的邮箱">
+			  </div>
+			  <div class="form-group">
+			  	<label for="">意见建议</label>
+			  	<textarea name="user_jianjie" class="form-control" rows="3"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-block btn-danger">提交</button>
+			</form>
+					
+				</div>
+				
+				<!--footer-->
+				<hr />
+				<footer>
+					<div class="footer-po">
+					<div class="qqpart"><b></b><img src="img/sdaf_03.png"/><span>624389325</span></div>
+					<div class="phonepart"><b></b><img src="img/phone_03.png"/><span>13112767406</span></div>
+					</div>
+				</footer>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
+<script type="text/javascript">
+	$('#nav_btn').click(function(){
+			$('.navbar-nav li').addClass("blackbg");
+		})
+</script>
